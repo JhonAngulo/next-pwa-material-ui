@@ -1,11 +1,13 @@
 import Head from 'next/head'
+import { Button } from '@material-ui/core';
 
 const Index = () => (
   <>
     <Head>
-      <title>next-pwa example</title>
+      <title>Mi App | Inicio</title>
     </Head>
-    <h1>Next.js + PWA = AWESOME!</h1>
+    <h1>Bienvenido!</h1>
+    <Button variant="contained">Hello World</Button>
   </>
 )
 
